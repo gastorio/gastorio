@@ -4,19 +4,8 @@ import 'package:flutter/material.dart';
 //Routes
 String restaurantShow = 'RestaurantShow';
 
+
 //Theme
-TextStyle primaryText = TextStyle(
-    color: Colors.grey[900]
-);
-
-TextStyle secondaryText = TextStyle(
-  color: Colors.grey[600]
-);
-
-TextStyle iconsText = TextStyle(
-  color: Colors.white
-);
-
 ThemeData gastorioTheme = ThemeData(
   primaryColor: Colors.lightBlue[500],
   primaryColorLight: Colors.lightBlue[100],
@@ -35,4 +24,16 @@ ThemeData gastorioTheme = ThemeData(
     bodyText1: primaryText,
     bodyText2: primaryText,
   ),
+);
+
+TextStyle primaryText = TextStyle(
+    color: Colors.grey[900]
+);
+
+TextStyle secondaryText = TextStyle(
+    color: Colors.grey[600]
+);
+
+TextStyle iconsText = TextStyle(
+    color: Colors.white
 );
